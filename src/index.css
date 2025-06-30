@@ -2,7 +2,14 @@
 
 /* @tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
+
+
+  .max-container {
+    @apply max-w-[1440px] mx-auto px-4;
+  } */
+
+
 
 /* your custom button */
 /* .btn {

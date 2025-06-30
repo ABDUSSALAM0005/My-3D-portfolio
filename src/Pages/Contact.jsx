@@ -59,18 +59,18 @@ const handleSubmit = (e) => {
 }
 
   return (
-  <section className='h-screen w-full mx-auto px-4 pt-28 grid lg:grid-cols-2 '>
-    <div className=' lg:col-span-1'>
+  <section className='min-h-screen w-full mx-auto px-4 pt-28 flex flex-col lg:grid lg:grid-cols-2 gap-12'>
+    <div className=' lg:col-span-1 w-full px-4'>
      <h1 className='sm:text-5xl text-3xl font-semibold sm:leading-snug font-poppins'>
        Get in Touch
      </h1>
      
-     <form className='w-full flex flex-col gap-7 mt-14' action="" onSubmit={handleSubmit} >
+     <form className='w-full flex flex-col gap-7 mt-10' action="" onSubmit={handleSubmit} >
       <label className='text-black-500 font-semibold' htmlFor="">
         Name
         <input type="text"
          name='name' 
-         className='bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card' 
+         className='box-border bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card' 
          placeholder='Enter name' 
          required
          value={form.name}
@@ -84,7 +84,7 @@ const handleSubmit = (e) => {
         <input 
          type="email"
          name='email' 
-         className='bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card' 
+         className='box-border bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card' 
          placeholder='@gmail.com' 
          required
          value={form.email}
@@ -97,7 +97,7 @@ const handleSubmit = (e) => {
         Name
         <textarea
          name='message' 
-         className='bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card' 
+         className='box-border bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card' 
          placeholder='Let me know how i can help u' 
          required
          value={form.message}

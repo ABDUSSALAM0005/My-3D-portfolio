@@ -1,18 +1,50 @@
 @import "tailwindcss";
 
-/* @tailwind base;
-@tailwind components;
+ /* @tailwind base;
+@tailwind components; */
 @tailwind utilities;
 
+.max-container {
+  @apply  max-w-5xl  mx-auto sm:p-16 pb-12 px-8 min-h-[calc(100vh-80px)] !pt-[126px];
+}
 
-  .max-container {
-    @apply max-w-[1440px] mx-auto px-4;
-  } */
+.blue-gradient_text {
+    @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
+  }
+
+.head-text {
+    @apply sm:text-5xl text-3xl font-semibold sm:leading-snug ;
+  }
+
+   .subhead-text {
+    @apply font-semibold sm:text-3xl text-xl relative;
+  }
+
+  .block-container {
+    @apply relative transition duration-[250ms] perspective-[500px]; 
+  }
+
+  .btn-front {
+    @apply absolute inset-0 z-[1] bg-[#ffffff33] backdrop-blur-[20px] transition duration-[250ms] [transform-style:preserve-3d] [transform-origin:top_left] overflow-hidden;
+  }
+
+  .block-container:hover > .btn-front-hover {
+  @apply [transform:translateZ(80px)_translateY(-5px)_rotateX(15deg)_rotateY(15deg)];
+}
+
+.block-container:hover > .btn-back {
+  @apply [transform:translateZ(20px)_rotateZ(15deg)_rotateX(-20deg)_rotateY(-20deg)];
+}
+
+
+  
+
+
 
 
 
 /* your custom button */
-/* .btn {
+/* /* .btn {
   @apply px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700;
 } */
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
@@ -60,11 +92,11 @@
     @apply mx-5 relative flex text-white flex-col gap-3 max-w-2xl neo-brutalism-blue pt-4 pb-12 px-8;
   }
 
-  .neo-btn {
+  /* .neo-btn {
     @apply py-3 px-6 rounded-lg text-blue-500 text-center font-semibold sm:w-1/2 w-[90%] -bottom-5 absolute mx-auto right-0 left-0 flex justify-center items-center gap-3;
-  }
+  } */
 
-  .cta {
+  /* .cta {
     @apply w-full flex items-center md:flex-row flex-col sm:mt-16 mt-8 gap-7;
   }
 
@@ -134,9 +166,9 @@
 
 .block-container .btn-back-black {
   background: linear-gradient(135deg, #0a1647 -20%, #e4e7e4 120%);
-}
+} */ */
 
-.block-container .btn-front {
+/* .block-container .btn-front {
   position: absolute;
   inset: 0;
   z-index: 1;
@@ -157,7 +189,7 @@
 
 .block-container:hover > .btn-front {
   transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
-} */
+} */ */
 
 /* Neo Brutalism */
 /* .neo-brutalism-blue {

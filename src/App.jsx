@@ -7,7 +7,7 @@ import { Home, About, Projects, Contact } from './Pages/index.js';
 
  function App() {
   return(
-   <main className='bg-gray-500/30'>
+   <main className='bg-slate-500/30'>
   <Router>
     <Navbar/>
     <Routes>

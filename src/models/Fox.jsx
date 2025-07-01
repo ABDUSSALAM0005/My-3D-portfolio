@@ -8,13 +8,29 @@ const Fox = ({ currentAnimation, ...props}) => {
   const { nodes, materials, animations } = useGLTF(scene)
   const { actions } = useAnimations(animations, group)
 
-  useEffect(() => {
-    Object.values(actions).forEach((action) => action.stop());
+  // useEffect(() => {
+  //   Object.values(actions).forEach((action) => action.stop());
 
-    if(actions[currentAnimation]) {
-        actions[currentAnimation].play();
-    }
-  },[actions, currentAnimation])
+  //   if(actions[currentAnimation]) {
+  //       actions[currentAnimation].play();
+  //   }
+  // },[actions, currentAnimation])
+
+  useEffect(() => {
+  if (!actions || !currentAnimation) return;
+
+  Object.values(actions).forEach((action) => {
+    action.fadeOut(0.2);
+  });
+
+  if (actions[currentAnimation]) {
+    actions[currentAnimation]
+      .reset()
+      .fadeIn(0.2)
+      .play();
+  }
+}, [actions, currentAnimation]);
+
   return (
     
     <group ref={group} {...props} dispose={null}>

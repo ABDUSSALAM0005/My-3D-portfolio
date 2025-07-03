@@ -129,18 +129,7 @@ const Contact = () => {
             </label>
             <button
               type="submit"
-              className='
-     text-white 
-    bg-gradient-to-r from-[#00c6ff] to-[#0072ff] 
-    hover:from-[#00a8e8] hover:to-[#005bb5]
-    focus:ring-4 focus:outline-none focus:ring-blue-300 
-    font-medium rounded-lg text-sm 
-    w-full sm:w-auto 
-    px-5 py-2.5 
-    text-center 
-    transition duration-300 ease-in-out
-    cursor-pointer"
-    '
+              className="btn"
               disabled={isLoading}
               onFocus={handleFocus}
               onBlur={handleBlur}

@@ -62,11 +62,11 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
     {
         imageUrl: mui,
         name: "Material-UI",
@@ -92,11 +92,11 @@ export const skills = [
         name: "Redux",
         type: "State Management",
     },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: sass,
+    //     name: "Sass",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
@@ -112,7 +112,7 @@ export const skills = [
 export const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
+        company_name: "Brainsts",
         icon: starbucks,
         iconBg: "#accbe1",
         date: "March 2020 - April 2021",
@@ -186,9 +186,9 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Chop Bites',
+        description: 'A kitchen website created with  react and tailwind',
+        link: 'https://github.com/ABDUSSALAM0005/Chop-Bites.git',
     },
     {
         iconUrl: threads,
@@ -207,22 +207,22 @@ export const projects = [
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'HTML,CSS and Bootstrap',
+        description: 'Websites created using html,css and bootstrap',
+        link: 'https://github.com/ABDUSSALAM0005/HTML-CSS-JAVASCRIPT.git',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Dark Souls Charcacter Creation',
+        description: 'A web version dark souls character creation page,that allows u to write the name you want,choose a class and gift and view the stats of each character you choose',
+        link: 'https://github.com/ABDUSSALAM0005/dark-souls-ui.git',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Simple Calculator ',
+        description: 'A simple calculator created using react and tailwind',
+        link: 'https://github.com/ABDUSSALAM0005/Simple-calculator.git',
     }
 ];

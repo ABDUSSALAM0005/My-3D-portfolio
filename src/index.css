@@ -36,6 +36,26 @@
   @apply [transform:translateZ(20px)_rotateZ(15deg)_rotateX(-20deg)_rotateY(-20deg)];
 }
 
+  .cta {
+    @apply w-full flex items-center md:flex-row flex-col sm:mt-16 mt-8 gap-7;
+  }
+
+  .cta-text {
+    @apply text-black font-extrabold flex-1 text-3xl max-md:text-center;
+  }
+
+   .btn {
+    @apply      cursor-pointer        
+     text-white 
+    bg-gradient-to-r from-[#00c6ff] to-[#0072ff] 
+    hover:from-[#00a8e8] hover:to-[#005bb5]
+    focus:ring-4 focus:outline-none focus:ring-blue-300 
+    font-medium rounded-lg text-sm 
+    w-full sm:w-auto 
+    px-5 py-2.5 
+    text-center 
+    transition duration-300 ease-in-out;
+  }
 
   
 

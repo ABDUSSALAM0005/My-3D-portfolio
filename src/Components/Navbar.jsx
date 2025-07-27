@@ -10,7 +10,7 @@ const Navbar = () => {
   className="w-24 h-10 rounded-lg bg-white flex items-center justify-center font-bold shadow-md transition-all duration-300 hover:scale-105 hover:rotate-1 hover:shadow-blue-300/40 hover:ring hover:ring-blue-400/30"
 >
   <p className="bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent ">
-    404Sync
+    Duonova
   </p>
 </NavLink>
 
@@ -35,6 +35,17 @@ const Navbar = () => {
   }
 >
   Projects
+</NavLink>
+
+<NavLink
+  to="/contact"
+  className={({ isActive }) =>
+    `relative transition-all duration-300 ease-in-out hover:text-blue-500 hover:scale-105 ${
+      isActive ? "text-blue-500" : "text-black"
+    } after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-blue-500 after:transition-all after:duration-300`
+  }
+>
+  Hire us
 </NavLink>
 
 

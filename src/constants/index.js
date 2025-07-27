@@ -187,7 +187,7 @@ export const projects = [
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Chop Bites',
-        description: 'A kitchen website created with  react and tailwind',
+        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
         link: 'https://github.com/ABDUSSALAM0005/Chop-Bites.git',
     },
     {
@@ -208,21 +208,21 @@ export const projects = [
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'HTML,CSS and Bootstrap',
-        description: 'Websites created using html,css and bootstrap',
+        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
         link: 'https://github.com/ABDUSSALAM0005/HTML-CSS-JAVASCRIPT.git',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'Dark Souls Charcacter Creation',
-        description: 'A web version dark souls character creation page,that allows u to write the name you want,choose a class and gift and view the stats of each character you choose',
+        description: 'A web version dark souls character creation page,that allows u to write the name you want,choose a class and gift',
         link: 'https://github.com/ABDUSSALAM0005/dark-souls-ui.git',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'Simple Calculator ',
-        description: 'A simple calculator created using react and tailwind',
+        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
         link: 'https://github.com/ABDUSSALAM0005/Simple-calculator.git',
     }
 ];

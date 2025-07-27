@@ -57,6 +57,10 @@
     transition duration-300 ease-in-out;
   }
 
+  .btn-main {
+  @apply px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700;
+} 
+
   
 
 

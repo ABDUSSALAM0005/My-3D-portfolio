@@ -8,7 +8,7 @@ import useAlert from "../hooks/useAlert";
 import Alert from "../Components/Alert";
 
 const Contact = () => {
-  const formRef = useRef(null);
+  // const formRef = useRef(null);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const [isLoading, setIsLoading] = useState(false);
@@ -115,7 +115,7 @@ const Contact = () => {
               />
             </label>
             <label className="text-black-500 font-semibold" htmlFor="">
-              Name
+              Message
               <textarea
                 name="message"
                 className="box-border bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card"

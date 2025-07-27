@@ -31,9 +31,9 @@ const renderContent = {
             sm:text-xl sm_leading-snug text-center text-white py-4 px-8 mx-5
             relative rounded-[10px] bg-[#2b77e7] border border-[#2b77e7] shadow-[0.6vmin_0.6vmin_#336cc1,1vmin_1vmin_#0092db,1vmin_1vmin_#0092db,0.65vmin_1vmin_#0092db,1vmin_0.65vmin_#0092db]"
     >
-      Yokoso(Welcome),Oreno nawa <span className="font-semibold">Aizen Sosuke</span>
+      Welcome to , <span className="font-semibold">Duonova Studios</span>
       <br />
-      from soul society
+       we excel at crafting digital experiences and prefecient in grahics design,content writing and more.
     </div>
   ),
   2: <InfoBox

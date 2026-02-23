@@ -1,12 +1,15 @@
-# React + Vite
+3D DuoNova (Immersive Portfolio)**
+## ✨ Key Features
+* 📱 **Mobile-First Design:** Fluid, responsive layouts built with Tailwind CSS that adapt seamlessly to any screen size.
+* ⚡ **Optimized Performance:** Fast load times achieved through optimized asset delivery and clean React component architecture.
+* 🎨 **Interactive UI/UX:** Smooth scrolling, hover states, and engaging transitions that guide the user through my project history and technical background.
+* ✉️ **Contact Integration:** A functional contact form for direct professional inquiries.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Tech Stack
+* **Frontend:** React.js, HTML5, CSS3, Tailwind CSS
+* **Deployment:** [e.g., Vercel / Netlify / GitHub Pages]
+<img width="1600" height="785" alt="3d" src="https://github.com/user-attachments/assets/a73274a3-7028-42ea-a6ca-66df17a547e6" />
+<img width="1600" height="900" alt="about" src="https://github.com/user-attachments/assets/1e79c68c-afa7-43bd-85dc-89b6ff8b2510" />
+<img width="1600" height="900" alt="cto" src="https://github.com/user-attachments/assets/278d8ec9-538c-45ef-8a15-3c1420ab3029" />
+<img width="1600" height="900" alt="about" src="https://github.com/user-attachments/assets/02da1e33-5d10-4ff6-8cb2-9afa911f717f" />
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

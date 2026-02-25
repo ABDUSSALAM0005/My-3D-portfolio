@@ -8,7 +8,7 @@
 ## 🛠️ Tech Stack
 * **Frontend:** React.js, HTML5, CSS3, Tailwind CSS
 * **Deployment:** [e.g., Vercel / Netlify / GitHub Pages]
-* 
+**🌍 Live Demo:** https://duonova-three-d-portfolio.vercel.app/
 
 https://github.com/user-attachments/assets/7b28d0cc-b26b-412f-9439-2293e753acea
 
